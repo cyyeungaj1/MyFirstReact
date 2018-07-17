@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+//import another file
+import Page from './index2'
+//ReactDOM.render(<Post />, document.getElementById('root'));
 // class Square extends React.Component {
 //   render() {
 //     return (
@@ -88,8 +91,13 @@ class Game extends React.Component {
 }
 
 // ========================================
+//
+// ReactDOM.render(
+//   <Game />,
+//   document.getElementById('root')
+// );
 
 ReactDOM.render(
-  <Game />,
+  <Page />,
   document.getElementById('root')
 );
